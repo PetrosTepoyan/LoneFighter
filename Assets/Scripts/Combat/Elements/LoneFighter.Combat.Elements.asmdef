@@ -1,0 +1,14 @@
+{
+    "name": "LoneFighter.Combat.Elements",
+    "rootNamespace": "LoneFighter.Combat.Elements",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
