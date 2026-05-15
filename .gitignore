@@ -64,3 +64,8 @@ crashlytics-build.properties
 
 # macOS
 .DS_Store
+
+# Procedurally generated placeholder audio — re-run the editor tool to produce these.
+# See AUDIO.md.
+/[Aa]ssets/[Aa]udio/[Gg]enerated/*.wav
+/[Aa]ssets/[Aa]udio/[Gg]enerated/*.wav.meta
