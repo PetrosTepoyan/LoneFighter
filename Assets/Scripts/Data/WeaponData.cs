@@ -19,5 +19,11 @@ namespace LoneFighter.Data
 
         [Header("Prefabs")]
         public GameObject projectilePrefab;
+
+        [Header("Component")]
+        [Tooltip("Short class name of the WeaponBase-derived component to attach for this weapon. " +
+                 "Resolved as LoneFighter.Weapons.<weaponComponent>. Empty/null falls back to ProjectileWeapon. " +
+                 "Examples: \"ProjectileWeapon\", \"SpreadShotgunWeapon\", \"OrbitalBladeWeapon\", \"ChainLightningWeapon\".")]
+        public string weaponComponent = "";
     }
 }
