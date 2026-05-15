@@ -64,3 +64,6 @@ crashlytics-build.properties
 
 # macOS
 .DS_Store
+
+# Claude Code agent worktrees (transient, managed by the harness)
+.claude/
