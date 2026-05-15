@@ -67,3 +67,12 @@ crashlytics-build.properties
 
 # Claude Code agent worktrees (transient, managed by the harness)
 .claude/
+
+# Procedurally generated placeholder audio — re-run the editor tool to produce these.
+# See AUDIO.md.
+/[Aa]ssets/[Aa]udio/[Gg]enerated/*.wav
+/[Aa]ssets/[Aa]udio/[Gg]enerated/*.wav.meta
+
+# Procedurally generated placeholder sprites — see SPRITES.md
+/[Aa]ssets/[Ss]prites/[Gg]enerated/*.png
+/[Aa]ssets/[Ss]prites/[Gg]enerated/*.png.meta
