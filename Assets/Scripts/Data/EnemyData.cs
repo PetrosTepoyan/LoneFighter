@@ -21,5 +21,23 @@ namespace LoneFighter.Data
 
         [Header("Prefab")]
         public GameObject prefab;
+
+        [Header("Visuals (optional, used by EnemyVisualConfig)")]
+        [Tooltip("Uniform scale applied to a child SpriteRenderer for quick visual distinction.")]
+        public float spriteScale = 1f;
+        [Tooltip("Tint applied to a child SpriteRenderer.")]
+        public Color tint = Color.white;
+
+        [Header("Ranged (Spitter)")]
+        [Tooltip("Projectile prefab fired by ranged archetypes (e.g. Spitter). Must have an EnemyProjectile component.")]
+        public GameObject projectilePrefab;
+        [Tooltip("Damage dealt by each fired projectile.")]
+        public float projectileDamage = 5f;
+        [Tooltip("Seconds between shots for ranged archetypes.")]
+        public float fireCooldown = 1.5f;
+
+        [Header("AOE (Bomber / Warden)")]
+        [Tooltip("Maximum radius of an AOE effect (suicide explosion, shockwave). 0 disables.")]
+        public float aoeRadius = 0f;
     }
 }
